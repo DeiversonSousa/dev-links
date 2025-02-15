@@ -32,12 +32,12 @@ body {
     background-size: cover;
     */
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 
 body * {
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
-    height: 100vh;
 }
 
 #container {
@@ -169,7 +169,7 @@ footer {
         --bg-url:  url(./assets/bg-desktop.jpg);
     }
         .light {
-            --bg-url: url(./assets/bg.desktop.light.jpg);
+            --bg-url: url(./assets/bg-desktop-light.jpg);
         }
     
 }
